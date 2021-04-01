@@ -10,6 +10,7 @@ pipeline {
                     script {
                         checkout scm
                         echo "Hello"
+                        TAG = "test"
 
                     }
                 }

@@ -7,7 +7,6 @@ pipeline {
             stage('Env') {
                 steps {
                     script {
-                        checkout scm
                         sh 'ls'
                         echo "Hello"
                     }
